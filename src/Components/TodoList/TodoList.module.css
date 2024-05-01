@@ -1,0 +1,19 @@
+.list{
+    border: 1px solid grey;
+    width: 80%;
+    margin: 1% auto;
+    padding: 1%;
+}
+button{
+    border: none;
+    width: 20%;
+    margin: 0% 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.edit{
+    background-color: yellow;
+}
+.delete{
+    background-color: red;
+}

@@ -1,9 +1,10 @@
-import Modal from "../UI/Modal";
+// import Modal from "../UI/Modal";
 
-const Button = () => {
+
+const Button = (props) => {
     return(
         <>
-        <button onClick={<Modal />}>Add New Blog</button>
+        <button onClick={props.onClick}>Add New Blog</button>
         </>
     )
 }
