@@ -1,0 +1,66 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100vh;
+}
+.modelOverlay{
+    position: fixed;
+    left: 23%;
+    padding: 3%;
+    border-radius: 20px;
+    width: 45%;
+    background-color: white;
+}
+.coverAllLabelInput{
+    display: flex;
+    gap: 3%;
+    text-align: start;
+    margin-bottom: 3%;
+}
+.coverLaveInput{
+    margin: 1% ;
+}
+.btns{
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+}
+.postBlog{
+    padding: 3%;
+    width: 20%;
+    background-color: rgba(59,130,246, 0.6);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px; 
+}
+.updateBtn{
+    width: 40%;
+    padding: 3%;
+    background-color: rgba(59,130,246, 0.6);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px; 
+}
+.postBlog:hover{
+    background-color: rgba(59,130,246, 1);
+}
+.close{
+    padding: 2%;
+    width: 15%;
+    background-color: rgba(209,213,219,0.6);
+    font-size: 17px;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 8px; 
+}
+.close:hover{
+    background-color: rgba(209,213,219,1);
+}

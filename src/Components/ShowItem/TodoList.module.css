@@ -1,0 +1,32 @@
+.list{
+    /* border: 1px solid grey; */
+    width: 50%;
+    margin: 0 1%;
+    padding: 1%;
+}
+.todoList{
+    font-size: 30px;
+    font-weight: 600;
+}
+.title{
+    font-size: 25px;
+}
+.blog{
+    font-size: 20px;
+}
+.imgs{
+    width: 60%;
+}
+button{
+    border: none;
+    width: 20%;
+    margin: 0% 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.edit{
+    background-color: yellow;
+}
+.delete{
+    background-color: red;
+}

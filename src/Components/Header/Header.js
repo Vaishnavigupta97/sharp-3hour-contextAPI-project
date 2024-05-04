@@ -1,14 +1,21 @@
+import { useButtonContext } from "../../Store/ContextProvider";
+import Form from "../Form/Form";
 import classes from "./Header.module.css";
-import Button from "../Button/Button";
 
-const Header = (props) => {
-    return(
+const Header = () => {
+    const { modal, setModal, setUpdateBtn } = useButtonContext()
+    const blogBtnClick = () => {
+        setModal(true);
+        setUpdateBtn(true);
+    };
+    return (
         <>
-        <div className={classes.header}>
-        <h1>Blog Website</h1>
-        <Button onClick={props.onShowCart} />
-        <hr />
-        </div>
+            <div className={classes.Header}>
+                <h1>Blog website</h1>
+                <button onClick={blogBtnClick}>Add New Blog</button>
+                <hr />
+                {modal && <Form />}
+            </div>
         </>
     )
 }
